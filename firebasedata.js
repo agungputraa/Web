@@ -60,7 +60,7 @@ function getdata(){
       //we have to pass our data to for loop to get one by one
       //we are passing the key of that post to delete it from database
       for(let[key,value] of Object.entries(data)){
-        posts_div.innerHTML="<div class='col-sm-4 mt-2 mb-1'>"+
+        posts_div.innerHTML="<div class='col-sm-4 mt-2 mb-1 shadow'>"+
         "<div class='card'>"+
         "<img src='"+value.imageURL+"' style='height:250px;'>"+
         "<div class='card-body'><p class='card-text'>"+value.text+"</p>"+
